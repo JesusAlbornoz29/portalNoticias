@@ -1,0 +1,7 @@
+.noticias-carousel-container{
+  width: 80%; /* Ancho del contenedor del carrusel */
+  margin: 0 auto; /* Centra el contenedor del carrusel */
+  border: 1px solid #ccc; /* Borde del contenedor del carrusel */
+  border-radius: 5px; /* Bordes redondeados del contenedor del carrusel */
+  overflow: hidden; /* Oculta el desbordamiento del contenido del carrusel */
+}
