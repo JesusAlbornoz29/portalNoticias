@@ -1,0 +1,40 @@
+/* Nav.css */
+header {
+    background-color: transparent; /* Hace que el fondo del nav sea transparente */
+    padding: 20px; /* Ajusta el espaciado interno según sea necesario */
+    }
+    
+    nav {
+        background-image: url('../img/gallery/gallery1.jpg');
+        height: 50vh; /* Ajusta la altura del nav */
+        background-size: cover; /* Ajusta el tamaño de la imagen */
+    }
+
+    nav ul {
+    list-style-type: none; /* Quita los estilos de la lista */
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    }
+  
+    nav ul li {
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+    margin-right: 50px; /* Añade espacio entre los elementos */
+    margin-top: 2vh;
+    }
+  
+    nav ul li a {
+        font-family: 'Permanent Marker', cursive; /* Tipo de fuente */
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none; /* Quita el subrayado de los enlaces */
+        color: #7fff7f; /* Color de texto verde clarito */
+        font-size: 2vh; /* Tamaño de fuente */
+
+     }
+  
+    nav ul li a:hover {
+        color: #800080; /* Cambia el color del texto al pasar el cursor */
+     }
+  

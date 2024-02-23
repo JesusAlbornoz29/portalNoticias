@@ -1,6 +1,12 @@
 // Nav.js
 import React from 'react';
 
+const link = document.createElement('link');
+link.href = 'https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap';
+link.rel = 'stylesheet';
+document.head.appendChild(link);
+
+
 const Nav = () => {
   return (
     <nav>

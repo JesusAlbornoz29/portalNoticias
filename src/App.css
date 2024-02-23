@@ -1,3 +1,9 @@
+body {
+  background-image: url('./img/background/main.jpg');
+  color: white;
+}
+
+
 /* App.css */
 header, footer, main {
   padding: 20px;

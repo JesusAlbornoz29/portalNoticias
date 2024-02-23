@@ -3,6 +3,7 @@ import React from 'react';
 import PortadaContainer from './PortadaContainer';
 import SobreMiContainer from './SobreMiContainer';
 import NoticiasCarouselContainer from './NoticiasCarouselContainer';
+import styleMainContainer from '../styless/styleMainContainer.css';
 
 const MainContent = () => {
   return (
