@@ -1,0 +1,89 @@
+.containerSobreMi{
+    background-image: url(../img/background/about1.png);
+    background-size: cover;
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    height: 30rem;;
+    width: 100%;
+}
+
+.sobre-mi{
+    border: 2px solid white;
+    height: 100%;
+    width: 50%;
+}
+
+.sobre-mi h2 {
+    font-family: 'Permanent Marker', cursive; /* Tipo de fuente */
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #7fff7f; /* Color de texto verde clarito */
+    font-size: 3vh; /* Tamaño de fuente */
+    text-align: center;
+}
+
+.sobre-mi p {
+    font-family: 'Permanent Marker', cursive; /* Tipo de fuente */
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #e62dff; /* Color de texto verde clarito */
+    font-size: 2vh; /* Tamaño de fuente */
+    text-align: center;
+}
+
+.imagenSobreMi {
+    position: relative; /* Cambia la posición a relativa */
+ flex-direction: column; /* Cambia la dirección del flex a columna */
+ justify-content: center; /* Centra verticalmente los elementos */
+ align-items: center; /* Centra horizontalmente los elementos */
+ border: 2px solid white;
+ height: 100%;
+ width: 50%;
+}
+
+.box1 {
+  position: relative; /* Establece la posición absoluta */
+  background-image: url(../img/about/about1.png);
+  background-size: cover;
+  background-position: center; /* Centra la imagen de fondo */
+  top: 0; /* Coloca box1 en la parte superior */
+  left: 50%; /* Alinea el centro de box1 con el 50% del contenedor */
+  transform: translateX(-50%); /* Centra box1 horizontalmente */
+  height: 15rem;
+  width: 15rem;
+  border: 2px solid white;
+  z-index: 0; /* Coloca box1 encima de box2 */
+  border-radius: 10px;
+  box-shadow: #e62dff 0px 0px 10px; /* Agrega sombra a box1 */
+}
+
+.box2 {
+  position: relative; /* Establece la posición absoluta */
+  background-image: url(../img/about/about2.png);
+  background-size: cover;
+  background-position: center; /* Centra la imagen de fondo */
+  bottom: 0; /* Coloca box2 en la parte inferior */
+  left: 0; /* Coloca box2 en la parte izquierda */
+  height: 15rem;
+  width: 15rem;
+  border: 2px solid white;
+  z-index: 1; /* Coloca box2 debajo de box1 */
+  border-radius: 10px;
+  box-shadow: #7fff7f 0px 0px 10px; /* Agrega sombra a box1 */
+}
+
+/* Utiliza @media queries para ajustar el diseño en diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+    .imagenSobreMi {
+      flex-direction: column; /* Cambia la dirección del flex a columna en pantallas más pequeñas */
+    }
+    
+    .box1, .box2 {
+      width: 100%; /* Establece el ancho al 100% en pantallas más pequeñas */
+    }
+  }

@@ -6,8 +6,11 @@ header {
     
     nav {
         background-image: url('../img/gallery/gallery1.jpg');
-        height: 50vh; /* Ajusta la altura del nav */
         background-size: cover; /* Ajusta el tamaño de la imagen */
+        background-position:center; /* Centra la imagen de fondo */
+        height: 50vh; /* Ajusta la altura del nav */
+        border-radius: 10px;
+        
     }
 
     nav ul {
@@ -35,6 +38,6 @@ header {
      }
   
     nav ul li a:hover {
-        color: #800080; /* Cambia el color del texto al pasar el cursor */
+        color: #e62dff; /* Cambia el color del texto al pasar el cursor */
      }
   

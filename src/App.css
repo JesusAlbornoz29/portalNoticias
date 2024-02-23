@@ -1,6 +1,11 @@
 body {
   background-image: url('./img/background/main.jpg');
   color: white;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
